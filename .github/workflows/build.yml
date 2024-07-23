@@ -20,7 +20,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        config: [macos, linux, windows-lcow, windows-wcow]
+        config: [macos, linux, windows-wcow]
         include:
           - config: macos
             # since macos-14 the latest runner is arm64
