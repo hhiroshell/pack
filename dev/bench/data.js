@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721741347309,
+  "lastUpdate": 1721778945874,
   "repoUrl": "https://github.com/hhiroshell/pack",
   "entries": {
     "Go Benchmark": [
@@ -166,6 +166,48 @@ window.BENCHMARK_DATA = {
           {
             "name": "BenchmarkBuild/with_Additional_Buildpack",
             "value": 59524956729,
+            "unit": "ns/op",
+            "extra": "1 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "hhiroshell@gmail.com",
+            "name": "hhiroshell",
+            "username": "hhiroshell"
+          },
+          "committer": {
+            "email": "hhiroshell@gmail.com",
+            "name": "hhiroshell",
+            "username": "hhiroshell"
+          },
+          "distinct": false,
+          "id": "169a912fc705f89dbbfb16d0854e2beabaf632ce",
+          "message": "fix the registry parameter of the docker/login-action",
+          "timestamp": "2024-07-24T08:53:39+09:00",
+          "tree_id": "483ce14dc1f91f6ad006602046297e10f929415d",
+          "url": "https://github.com/hhiroshell/pack/commit/169a912fc705f89dbbfb16d0854e2beabaf632ce"
+        },
+        "date": 1721778943064,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkBuild/with_Untrusted_Builder",
+            "value": 4172937069,
+            "unit": "ns/op",
+            "extra": "1 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkBuild/with_Trusted_Builder",
+            "value": 1170905203,
+            "unit": "ns/op",
+            "extra": "1 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkBuild/with_Additional_Buildpack",
+            "value": 58305130908,
             "unit": "ns/op",
             "extra": "1 times\n4 procs"
           }
