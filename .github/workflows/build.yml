@@ -20,7 +20,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        config: [macos, linux, windows-wcow]
+        config: [macos, linux, windows-lcow, windows-wcow]
         include:
           - config: macos
             # since macos-14 the latest runner is arm64
@@ -33,6 +33,11 @@ jobs:
             runner: ubuntu-latest
             no_docker: "false"
             pack_bin: pack
+          - config: windows-lcow
+            os: windows
+            runner: [self-hosted, windows, lcow]
+            no_docker: "false"
+            pack_bin: pack.exe
           - config: windows-wcow
             os: windows
             runner: [windows-2019]

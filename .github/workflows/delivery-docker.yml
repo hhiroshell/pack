@@ -17,7 +17,7 @@ on:
 
 env:
   REPO_NAME: 'index.docker.io'
-  USER_NAME: 'hhayakaw'
+  USER_NAME: 'buildpacksio'
   IMG_NAME: 'pack'
 
 jobs:
