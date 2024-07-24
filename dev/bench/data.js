@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721778945874,
+  "lastUpdate": 1721789561167,
   "repoUrl": "https://github.com/hhiroshell/pack",
   "entries": {
     "Go Benchmark": [
@@ -208,6 +208,48 @@ window.BENCHMARK_DATA = {
           {
             "name": "BenchmarkBuild/with_Additional_Buildpack",
             "value": 58305130908,
+            "unit": "ns/op",
+            "extra": "1 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "hhiroshell@gmail.com",
+            "name": "hhiroshell",
+            "username": "hhiroshell"
+          },
+          "committer": {
+            "email": "hhiroshell@gmail.com",
+            "name": "hhiroshell",
+            "username": "hhiroshell"
+          },
+          "distinct": true,
+          "id": "98e150d677c71f3f89f2c844253e687b9e160c8c",
+          "message": "test workflow changes (index.docker.io)",
+          "timestamp": "2024-07-24T11:50:43+09:00",
+          "tree_id": "4793a36f3a4cb67a58ec416d783dc01fed467ceb",
+          "url": "https://github.com/hhiroshell/pack/commit/98e150d677c71f3f89f2c844253e687b9e160c8c"
+        },
+        "date": 1721789558361,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkBuild/with_Untrusted_Builder",
+            "value": 3817347844,
+            "unit": "ns/op",
+            "extra": "1 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkBuild/with_Trusted_Builder",
+            "value": 1087463372,
+            "unit": "ns/op",
+            "extra": "1 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkBuild/with_Additional_Buildpack",
+            "value": 55304714104,
             "unit": "ns/op",
             "extra": "1 times\n4 procs"
           }
