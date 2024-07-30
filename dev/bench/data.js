@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721804054760,
+  "lastUpdate": 1722306950470,
   "repoUrl": "https://github.com/hhiroshell/pack",
   "entries": {
     "Go Benchmark": [
@@ -292,6 +292,48 @@ window.BENCHMARK_DATA = {
           {
             "name": "BenchmarkBuild/with_Additional_Buildpack",
             "value": 53807142623,
+            "unit": "ns/op",
+            "extra": "1 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "narellano@vmware.com",
+            "name": "Natalie Arellano",
+            "username": "natalieparellano"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f6b450fc1ae5c3706cd5359a688cb80266950171",
+          "message": "Merge pull request #2217 from buildpacks/security-fixes\n\nFixes from security review",
+          "timestamp": "2024-07-17T10:58:31-04:00",
+          "tree_id": "80725ff5a650f39486768ce1c8202c3482ce834f",
+          "url": "https://github.com/hhiroshell/pack/commit/f6b450fc1ae5c3706cd5359a688cb80266950171"
+        },
+        "date": 1722306950051,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkBuild/with_Untrusted_Builder",
+            "value": 4906516412,
+            "unit": "ns/op",
+            "extra": "1 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkBuild/with_Trusted_Builder",
+            "value": 1519675128,
+            "unit": "ns/op",
+            "extra": "1 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkBuild/with_Additional_Buildpack",
+            "value": 57644558611,
             "unit": "ns/op",
             "extra": "1 times\n4 procs"
           }
