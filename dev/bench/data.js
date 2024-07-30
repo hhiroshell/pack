@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722309182614,
+  "lastUpdate": 1722309514076,
   "repoUrl": "https://github.com/hhiroshell/pack",
   "entries": {
     "Go Benchmark": [
@@ -418,6 +418,48 @@ window.BENCHMARK_DATA = {
           {
             "name": "BenchmarkBuild/with_Additional_Buildpack",
             "value": 57252609343,
+            "unit": "ns/op",
+            "extra": "1 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "hhiroshell@gmail.com",
+            "name": "hhiroshell",
+            "username": "hhiroshell"
+          },
+          "committer": {
+            "email": "hhiroshell@gmail.com",
+            "name": "hhiroshell",
+            "username": "hhiroshell"
+          },
+          "distinct": true,
+          "id": "3927ff6a7a79cb27078b59f26a6b8254ef7f50ec",
+          "message": "specify the \"matrix.suffix\" for the source of the retagging image.",
+          "timestamp": "2024-07-30T12:16:32+09:00",
+          "tree_id": "b4878b25508d709da9ca087f0bda899b7330f2e8",
+          "url": "https://github.com/hhiroshell/pack/commit/3927ff6a7a79cb27078b59f26a6b8254ef7f50ec"
+        },
+        "date": 1722309510987,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkBuild/with_Untrusted_Builder",
+            "value": 4801054908,
+            "unit": "ns/op",
+            "extra": "1 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkBuild/with_Trusted_Builder",
+            "value": 1511470470,
+            "unit": "ns/op",
+            "extra": "1 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkBuild/with_Additional_Buildpack",
+            "value": 56810853076,
             "unit": "ns/op",
             "extra": "1 times\n4 procs"
           }
