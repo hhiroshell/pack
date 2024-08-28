@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724848940175,
+  "lastUpdate": 1724849724474,
   "repoUrl": "https://github.com/hhiroshell/pack",
   "entries": {
     "Go Benchmark": [
@@ -502,6 +502,48 @@ window.BENCHMARK_DATA = {
           {
             "name": "BenchmarkBuild/with_Additional_Buildpack",
             "value": 59420199399,
+            "unit": "ns/op",
+            "extra": "1 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "narellano@vmware.com",
+            "name": "Natalie Arellano",
+            "username": "natalieparellano"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a651c5dac4c2f5d7232b164634d4aa904415cd94",
+          "message": "Merge pull request #2234 from sap-contributions/support-oci-mediatype\n\nSupport OCI layouts with `application/vnd.oci.image.manifest.v1+json` media type",
+          "timestamp": "2024-07-29T18:07:08-04:00",
+          "tree_id": "2dc359bd23bec4f7aa67a154f2ef8069e7186c9e",
+          "url": "https://github.com/hhiroshell/pack/commit/a651c5dac4c2f5d7232b164634d4aa904415cd94"
+        },
+        "date": 1724849721636,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkBuild/with_Untrusted_Builder",
+            "value": 4184039477,
+            "unit": "ns/op",
+            "extra": "1 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkBuild/with_Trusted_Builder",
+            "value": 1206964552,
+            "unit": "ns/op",
+            "extra": "1 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkBuild/with_Additional_Buildpack",
+            "value": 60660439255,
             "unit": "ns/op",
             "extra": "1 times\n4 procs"
           }
