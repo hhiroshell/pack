@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740658874191,
+  "lastUpdate": 1746708161971,
   "repoUrl": "https://github.com/hhiroshell/pack",
   "entries": {
     "Go Benchmark": [
@@ -754,6 +754,48 @@ window.BENCHMARK_DATA = {
           {
             "name": "BenchmarkBuild/with_Additional_Buildpack",
             "value": 59616815896,
+            "unit": "ns/op",
+            "extra": "1 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "hhiroshell@gmail.com",
+            "name": "Hiroshi Hayakawa",
+            "username": "hhiroshell"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f6549a67624188fb92d78d11c63fc4a31d5af88e",
+          "message": "Merge branch 'buildpacks:main' into main",
+          "timestamp": "2025-05-08T21:39:54+09:00",
+          "tree_id": "6ff48fa1bdeb064504fe8e341f5f678878cec77b",
+          "url": "https://github.com/hhiroshell/pack/commit/f6549a67624188fb92d78d11c63fc4a31d5af88e"
+        },
+        "date": 1746708158255,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkBuild/with_Untrusted_Builder",
+            "value": 6389869172,
+            "unit": "ns/op",
+            "extra": "1 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkBuild/with_Trusted_Builder",
+            "value": 1879622553,
+            "unit": "ns/op",
+            "extra": "1 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkBuild/with_Additional_Buildpack",
+            "value": 70924489472,
             "unit": "ns/op",
             "extra": "1 times\n4 procs"
           }
